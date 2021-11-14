@@ -21,4 +21,7 @@ from dodoTA.views import test
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('ad/', include('dodoTA.urls')),
+
+path('ad/', include('dodoTA.urls')),
+path('ad/', include('dodoTA.urls')),
          ]
