@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'csd.css' %}">
+</head>
+<body>
+<div class="d1">
+<table border="2">
+    <tr>
+        {% for i in friends %}
+        <td>{{ i.name }}</td>
+        {% endfor %}
+    </tr></table>
+
+
+</div>
+
+</body>
+</html>
